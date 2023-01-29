@@ -101,7 +101,7 @@ public class WhatsappService {
 
         if(!groupHashMap.containsKey(group))
         {
-            throw new Exception("Group does not exist")
+            throw new Exception("Group does not exist");
         }
 
         User pastAdmin=groupHashMap.get(group).get(0);
